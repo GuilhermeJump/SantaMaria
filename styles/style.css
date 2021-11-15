@@ -115,10 +115,8 @@ a {
 @media screen and (max-width: 600px) {
 
     body {
-      background-color: lightblue;
-      color: red;
-      width: 600px;
-    }
+      max-width: 600px
+        }
 
     header {
 
@@ -138,6 +136,40 @@ a {
 
         width: 600px;
         height: 400px;
+    }
+
+    li span {
+
+        margin: 0 20px 0 20px;
+
+
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+
+    body {
+      max-width: 375px;
+        }
+
+    header {
+
+        background-color: #015fb1b4;
+        width: 100%;
+        text-align: center;          
+    }
+    
+    header h1 {
+        
+        text-align: center;
+        color: #f6e615;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    iframe {
+
+        width: 375px;
+        height: 188px;
     }
 
     li span {
